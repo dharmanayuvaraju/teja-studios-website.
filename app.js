@@ -380,14 +380,7 @@ function initCalculator() {
 
   function recalculate() {
     const hours = parseInt(durationSelect.value, 10) || 1;
-    let basePrice = 0;
-    if (hours === 4) {
-      basePrice = 9500;
-    } else if (hours === 8) {
-      basePrice = 18000;
-    } else {
-      basePrice = hours * 2500;
-    }
+    const basePrice = hours * 2500;
 
     let extras = 0;
     let extraNotes = [];
@@ -404,8 +397,7 @@ function initCalculator() {
     totalAmountEl.textContent = `₹${total.toLocaleString('en-IN')}`;
 
     if (perHourRateEl) {
-      const effectiveRate = Math.round(basePrice / hours);
-      perHourRateEl.textContent = `Effective: ₹${effectiveRate.toLocaleString('en-IN')}/hr`;
+      perHourRateEl.textContent = `Base Rate: ₹2,500/hr`;
     }
 
     if (whatsappBookBtn) {
@@ -540,9 +532,14 @@ function initReelPlayer() {
   }
 }
 
-// FAQ Accordion
+// FAQ Accordion & 2-Item Mobile Toggle System
 function initFaq() {
   const faqItems = document.querySelectorAll('.faq-item');
+  const toggleBtn = document.getElementById('toggleFaqBtn');
+  const toggleText = document.getElementById('toggleFaqText');
+  const toggleIcon = document.getElementById('toggleFaqIcon');
+  const extraFaqs = document.querySelectorAll('.faq-extra');
+
   faqItems.forEach(item => {
     const trigger = item.querySelector('.faq-trigger');
     const content = item.querySelector('.accordion-content');
@@ -566,6 +563,34 @@ function initFaq() {
       }
     });
   });
+
+  // Toggle Extra FAQs (shows 2 initially, reveals +3 on click)
+  if (toggleBtn && extraFaqs.length > 0) {
+    let isFaqExpanded = false;
+    toggleBtn.addEventListener('click', () => {
+      isFaqExpanded = !isFaqExpanded;
+      extraFaqs.forEach(faq => {
+        if (isFaqExpanded) {
+          faq.classList.remove('hidden');
+          faq.classList.add('fade-in-card');
+        } else {
+          faq.classList.add('hidden');
+          faq.classList.remove('fade-in-card');
+          const content = faq.querySelector('.accordion-content');
+          const icon = faq.querySelector('.faq-icon');
+          if (content) content.classList.remove('open');
+          if (icon) icon.classList.remove('rotate-180');
+        }
+      });
+
+      if (toggleText) {
+        toggleText.textContent = isFaqExpanded ? 'Show Fewer FAQs' : `View More FAQs (+${extraFaqs.length})`;
+      }
+      if (toggleIcon) {
+        toggleIcon.classList.toggle('rotate-180', isFaqExpanded);
+      }
+    });
+  }
 }
 
 // Mobile Hamburger Nav
