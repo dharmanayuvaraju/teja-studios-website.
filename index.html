@@ -94,25 +94,30 @@
 <body class="bg-[#faf9f6] text-slate-800 antialiased selection:bg-amber-200 selection:text-amber-900 pb-16 md:pb-0">
 
   <!-- Top Announcement Bar -->
-  <aside aria-label="Announcement" class="bg-slate-950 text-slate-200 text-xs py-2 px-4 border-b border-amber-900/40">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
-      <div class="flex items-center gap-2">
-        <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500 text-slate-950 uppercase tracking-wider">
-          Fixed Price Offer
+  <aside aria-label="Announcement" class="bg-slate-950 text-slate-200 text-xs py-1.5 px-3 sm:px-4 border-b border-amber-900/40">
+    <div class="max-w-7xl mx-auto flex flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-2 truncate">
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500 text-slate-950 uppercase tracking-wider flex-shrink-0">
+          Offer
         </span>
-        <span class="text-slate-300 font-medium">
-          2-Acre Photography Studio Rental at just <strong class="text-amber-400 font-bold">₹2,500 / Hour</strong> • 22 AC Indoor Sets &amp; 1-Acre Garden
+        <span class="text-slate-300 font-medium text-[11px] sm:text-xs truncate">
+          2-Acre Studio Rental at <strong class="text-amber-400 font-bold">₹2,500 / Hr</strong> • 22 AC Sets
         </span>
       </div>
-      <div class="flex items-center gap-4 text-slate-400">
-        <a href="tel:+919515109009" class="hover:text-amber-400 transition-colors flex items-center gap-1 font-semibold">
+      <div class="flex items-center gap-3 text-slate-400 flex-shrink-0">
+        <a 
+          href="https://www.linkedin.com/in/dharmana-yuvaraju/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="inline-flex items-center gap-1 text-[10px] sm:text-[11px] font-semibold text-amber-300 hover:text-white bg-slate-900 px-2.5 py-0.5 rounded-full border border-amber-500/30 transition-colors"
+          title="Designed & Developed by Dharmana Yuvaraju (Call: 7337422054)"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Dev: Dharmana Yuvaraju ↗</span>
+        </a>
+        <a href="tel:+919515109009" class="hover:text-amber-400 transition-colors items-center gap-1 font-semibold hidden md:flex">
           <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path></svg>
           095151 09009
-        </a>
-        <span class="text-slate-600 hidden sm:inline">|</span>
-        <a href="https://maps.app.goo.gl/i5DWxe9zMsW9Paca8" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition-colors flex items-center gap-1 hidden sm:flex">
-          <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-          Medchal - Kompally (ORR Exit 6)
         </a>
       </div>
     </div>
@@ -120,66 +125,83 @@
 
   <!-- Sticky Navbar -->
   <header id="mainHeader" class="sticky top-0 z-40 glass-header transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
       
       <!-- Logo & Title -->
-      <a href="#" class="flex items-center gap-3 group">
-        <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-500/50 shadow-sm bg-amber-50/50 flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group">
+        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-amber-500/50 shadow-sm bg-amber-50/50 flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
           <img src="assets/branding/logo_circle.png" alt="Teja Studios Logo" class="w-full h-full object-contain" />
         </div>
         <div>
-          <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-slate-900 block leading-tight">
+          <span class="font-serif text-lg sm:text-2xl font-bold tracking-tight text-slate-900 block leading-tight">
             TEJA <span class="text-amber-600">STUDIOS</span>
           </span>
-          <span class="text-[11px] font-medium tracking-wide text-slate-500 uppercase block">
+          <span class="text-[10px] sm:text-[11px] font-medium tracking-wide text-slate-500 uppercase block">
             2-Acre Photography Campus
           </span>
         </div>
       </a>
 
       <!-- Desktop Navigation Links -->
-      <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
-        <a href="#themes" class="hover:text-amber-600 transition-colors">Sets &amp; Themes</a>
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-700">
+        <a href="#gallery" class="hover:text-amber-600 transition-colors">65+ Portfolio Sets</a>
         <a href="#video-tour" class="hover:text-amber-600 transition-colors flex items-center gap-1.5">
           <span>Star Reel</span>
           <span class="px-1.5 py-0.5 rounded-full text-[10px] bg-rose-500 text-white font-bold">Watch</span>
         </a>
-        <a href="#gallery" class="hover:text-amber-600 transition-colors">65+ Portfolio Sets</a>
         <a href="#amenities" class="hover:text-amber-600 transition-colors">Studio Amenities</a>
-        <a href="#pricing" class="hover:text-amber-600 transition-colors">Rental Pricing</a>
+        <a href="#pricing" class="hover:text-amber-600 transition-colors">Pricing (₹2,500/hr)</a>
         <a href="#reviews" class="hover:text-amber-600 transition-colors">Reviews (136+)</a>
         <a href="#location" class="hover:text-amber-600 transition-colors">Directions</a>
       </nav>
 
-      <!-- Desktop CTAs -->
-      <div class="hidden sm:flex items-center gap-3">
+      <!-- Right Actions: Dev Button + Booking CTAs + Mobile Menu -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        
+        <!-- Small Developer Button at Top (Always visible on mobile & desktop) -->
         <a 
-          href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20shoot%20slot!" 
+          href="https://www.linkedin.com/in/dharmana-yuvaraju/" 
           target="_blank" 
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm px-4 py-2.5 rounded-full shadow-sm hover:shadow transition-all"
+          rel="noopener noreferrer" 
+          class="inline-flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-amber-300 hover:text-amber-200 text-[11px] font-bold px-2.5 sm:px-3 py-1.5 rounded-full border border-amber-500/40 shadow-xs transition-all hover:scale-105"
+          title="Developed by Dharmana Yuvaraju • 7337422054"
         >
-          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-          WhatsApp Booking
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-slate-400 font-normal hidden xs:inline">Dev:</span>
+          <span>Dharmana Yuvaraju</span>
+          <svg class="w-3 h-3 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>
 
+        <!-- Desktop CTAs -->
+        <div class="hidden sm:flex items-center gap-2.5">
+          <a 
+            href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20shoot%20slot!" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm px-3.5 py-2 rounded-full shadow-sm hover:shadow transition-all"
+          >
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+
+          <button 
+            type="button" 
+            class="open-booking-modal-btn bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs sm:text-sm px-3.5 py-2 rounded-full shadow-sm hover:shadow transition-all"
+          >
+            Book Slot
+          </button>
+        </div>
+
+        <!-- Mobile Hamburger Button -->
         <button 
+          id="mobileMenuBtn" 
           type="button" 
-          class="open-booking-modal-btn bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-sm px-4 py-2.5 rounded-full shadow-sm hover:shadow transition-all"
+          aria-label="Open mobile menu"
+          class="lg:hidden p-2 rounded-lg text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-colors"
         >
-          Book Slot
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
       </div>
-
-      <!-- Mobile Hamburger Button -->
-      <button 
-        id="mobileMenuBtn" 
-        type="button" 
-        aria-label="Open mobile menu"
-        class="lg:hidden p-2 rounded-lg text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-colors"
-      >
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-      </button>
 
     </div>
   </header>
@@ -232,19 +254,19 @@
   </div>
 
   <!-- Hero Section -->
-  <section class="relative overflow-hidden pt-8 pb-14 lg:pt-16 lg:pb-20 bg-gradient-to-b from-[#faf8f5] via-amber-50/30 to-[#faf9f6]">
+  <section class="relative overflow-hidden pt-6 pb-8 sm:pt-10 sm:pb-12 bg-gradient-to-b from-[#faf8f5] via-amber-50/30 to-[#faf9f6]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         
         <!-- Left Content Column -->
-        <div class="lg:col-span-7 flex flex-col items-start space-y-6">
+        <div class="lg:col-span-7 flex flex-col items-start space-y-4 sm:space-y-5">
           
           <!-- Rating & Badge -->
-          <div class="inline-flex items-center gap-2 bg-amber-100/90 border border-amber-300/80 rounded-full px-3.5 sm:px-4 py-1.5 shadow-sm text-xs font-bold text-amber-950">
-            <span class="flex text-amber-500 text-sm">★★★★★</span>
+          <div class="inline-flex items-center gap-2 bg-amber-100/90 border border-amber-300/80 rounded-full px-3 sm:px-4 py-1 shadow-xs text-xs font-bold text-amber-950">
+            <span class="flex text-amber-500 text-xs sm:text-sm">★★★★★</span>
             <span>4.8 / 5.0 (136+ Google Reviews)</span>
-            <span class="text-amber-400">•</span>
-            <span class="text-amber-800">Top Rated in Hyderabad</span>
+            <span class="text-amber-400 hidden xs:inline">•</span>
+            <span class="text-amber-800 hidden xs:inline">Top Rated in Hyderabad</span>
           </div>
 
           <!-- Main Headline -->
@@ -252,72 +274,52 @@
             Hyderabad’s Largest <span class="gold-gradient-text">2-Acre</span> Photography Studio
           </h1>
 
-          <p class="text-slate-600 text-sm sm:text-lg max-w-2xl leading-relaxed">
+          <p class="text-slate-600 text-xs sm:text-base max-w-2xl leading-relaxed">
             Exclusively crafted for <strong>Newborn</strong>, <strong>Kids Milestones</strong>, and <strong>Maternity</strong> shoots. Explore <strong>22+ fully air-conditioned 3D indoor sets</strong> and <strong>10+ outdoor garden themes</strong> across a 1-acre lush green paradise.
           </p>
 
           <!-- Highlight Pricing Banner Card -->
-          <div class="w-full bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-4 sm:p-5 border border-amber-500/30 shadow-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-6">
-            <div class="flex items-center gap-4">
-              <div class="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 flex-shrink-0">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <div class="w-full bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-3.5 sm:p-4 border border-amber-500/30 shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-6">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
               </div>
               <div>
-                <span class="text-[11px] sm:text-xs uppercase tracking-wider text-amber-400 font-bold block">Special Offer • Fixed Price</span>
-                <span class="font-serif text-2xl sm:text-3xl font-extrabold text-white">₹2,500 <span class="text-xs sm:text-sm font-sans font-normal text-slate-300">/ Per Hour</span></span>
+                <span class="text-[10px] uppercase tracking-wider text-amber-400 font-bold block">Fixed Studio Rental</span>
+                <span class="font-serif text-2xl font-extrabold text-white">₹2,500 <span class="text-xs font-sans font-normal text-slate-300">/ Hour</span></span>
               </div>
             </div>
-            <div class="text-xs text-slate-300 sm:border-l sm:border-slate-700 sm:pl-6 space-y-1">
+            <div class="text-xs text-slate-300 sm:border-l sm:border-slate-700 sm:pl-5 space-y-0.5">
               <div class="flex items-center gap-1.5">
-                <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                <span>All 22 AC Indoor Sets + 1-Acre Garden</span>
+                <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span>22 AC Sets + 1-Acre Garden</span>
               </div>
               <div class="flex items-center gap-1.5">
-                <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                <span>Free AC Private Room &amp; Costumes</span>
+                <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                <span>Free AC Room &amp; Costumes Included</span>
               </div>
             </div>
           </div>
 
           <!-- Action Buttons -->
-          <div class="flex flex-wrap items-center gap-3 sm:gap-4 pt-1 w-full sm:w-auto">
+          <div class="flex flex-wrap items-center gap-2.5 sm:gap-3.5 pt-1 w-full sm:w-auto">
             <a 
               href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20book%20a%20shoot%20slot%20at%20₹2500/hr!" 
               target="_blank" 
               rel="noopener noreferrer"
-              class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm sm:text-base px-6 py-3.5 rounded-full shadow-lg hover:shadow-xl transition-all"
+              class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-full shadow-md hover:shadow-lg transition-all"
             >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
               <span>Instant WhatsApp Booking</span>
             </a>
 
             <button 
               type="button" 
-              class="open-reel-modal-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-700 text-white font-bold text-sm sm:text-base px-5 py-3.5 rounded-full shadow transition-all"
+              class="open-reel-modal-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs sm:text-sm px-4 py-3 rounded-full shadow transition-all"
             >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
               <span>Watch Star Reel Video</span>
             </button>
-          </div>
-
-          <!-- Key Amenities Quick Bullet Badges -->
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 pt-2 w-full">
-            <div class="bg-white/90 border border-amber-200/60 rounded-xl p-2.5 sm:p-3 text-center shadow-xs">
-              <span class="block text-amber-600 font-extrabold text-base sm:text-lg">22+</span>
-              <span class="text-[11px] sm:text-xs font-semibold text-slate-600">AC Indoor Themes</span>
-            </div>
-            <div class="bg-white/90 border border-amber-200/60 rounded-xl p-2.5 sm:p-3 text-center shadow-xs">
-              <span class="block text-amber-600 font-extrabold text-base sm:text-lg">1-Acre</span>
-              <span class="text-[11px] sm:text-xs font-semibold text-slate-600">Garden Lawns</span>
-            </div>
-            <div class="bg-white/90 border border-amber-200/60 rounded-xl p-2.5 sm:p-3 text-center shadow-xs">
-              <span class="block text-amber-600 font-extrabold text-base sm:text-lg">Free</span>
-              <span class="text-[11px] sm:text-xs font-semibold text-slate-600">AC Private Room</span>
-            </div>
-            <div class="bg-white/90 border border-amber-200/60 rounded-xl p-2.5 sm:p-3 text-center shadow-xs">
-              <span class="block text-amber-600 font-extrabold text-base sm:text-lg">Free</span>
-              <span class="text-[11px] sm:text-xs font-semibold text-slate-600">Costumes &amp; Props</span>
-            </div>
           </div>
 
         </div>
@@ -326,7 +328,7 @@
         <div class="lg:col-span-5 relative mt-2 lg:mt-0">
           <div class="relative mx-auto max-w-sm sm:max-w-md lg:max-w-none">
             
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[4/5]">
+            <div class="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-slate-100 aspect-[4/3] sm:aspect-[4/5]">
               <img 
                 src="assets/gallery/maternity/maternity_1.jpg" 
                 alt="Teja Studios Maternity Shoot in Outdoor 1-Acre Garden" 
@@ -336,34 +338,33 @@
               />
               <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent"></div>
               
-              <div class="absolute bottom-5 left-5 right-5 text-white">
-                <span class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-amber-400 bg-slate-950/70 px-2.5 py-1 rounded-full backdrop-blur-md inline-block mb-1">
+              <div class="absolute bottom-4 left-4 right-4 text-white">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-slate-950/70 px-2 py-0.5 rounded-full backdrop-blur-md inline-block mb-1">
                   1-Acre Garden Sunset Theme
                 </span>
-                <p class="font-serif text-base sm:text-lg font-bold">Unforgettable Maternity Portraits</p>
-                <p class="text-[11px] sm:text-xs text-slate-300">Natural sunlight, romantic backdrops &amp; designer gowns</p>
+                <p class="font-serif text-sm sm:text-base font-bold">Unforgettable Maternity Portraits</p>
+                <p class="text-[10px] sm:text-xs text-slate-300">Natural sunlight, romantic backdrops &amp; designer gowns</p>
               </div>
             </div>
 
-            <div class="absolute -bottom-5 -left-4 sm:-bottom-6 sm:-left-8 bg-white p-2.5 sm:p-3 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3 max-w-[240px] sm:max-w-[260px] transform hover:scale-105 transition-transform">
-              <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-xl overflow-hidden flex-shrink-0 bg-slate-100">
+            <div class="absolute -bottom-4 -left-3 sm:-bottom-5 sm:-left-6 bg-white p-2 sm:p-2.5 rounded-2xl shadow-lg border border-slate-100 flex items-center gap-2.5 max-w-[210px] sm:max-w-[240px]">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden flex-shrink-0 bg-slate-100">
                 <img src="assets/gallery/kids/kids_1.jpg" alt="Newborn baby photography setup" class="w-full h-full object-cover" />
               </div>
               <div>
-                <span class="text-[9px] sm:text-[10px] uppercase font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full inline-block">100% Baby Safe</span>
-                <p class="text-[11px] sm:text-xs font-bold text-slate-800 mt-0.5">Sanitized Newborn Sets</p>
-                <p class="text-[10px] sm:text-[11px] text-slate-500">Heated/AC control</p>
+                <span class="text-[9px] uppercase font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded-full inline-block">100% Baby Safe</span>
+                <p class="text-[11px] font-bold text-slate-800 leading-tight">Sanitized Newborn Sets</p>
               </div>
             </div>
 
-            <div class="absolute -top-4 -right-2 sm:-right-6 bg-slate-900/95 text-white p-3 sm:p-3.5 rounded-2xl shadow-xl border border-amber-500/30 backdrop-blur-md max-w-[210px] sm:max-w-[240px]">
-              <div class="flex items-center gap-1 text-amber-400 text-xs mb-1">
+            <div class="absolute -top-3 -right-2 sm:-right-4 bg-slate-900/95 text-white p-2.5 sm:p-3 rounded-2xl shadow-lg border border-amber-500/30 backdrop-blur-md max-w-[190px] sm:max-w-[220px]">
+              <div class="flex items-center gap-1 text-amber-400 text-[11px] mb-0.5">
                 ★★★★★ <span class="text-slate-300 font-bold ml-1">5.0</span>
               </div>
-              <p class="text-[10px] sm:text-[11px] text-slate-200 italic line-clamp-2 leading-snug">
-                "The album completely stole my heart. The themes were stunning!"
+              <p class="text-[10px] text-slate-200 italic line-clamp-2 leading-snug">
+                "The album completely stole my heart!"
               </p>
-              <span class="text-[10px] text-amber-300 font-medium block mt-1">— Aparna Anjali</span>
+              <span class="text-[9px] text-amber-300 font-medium block mt-0.5">— Aparna Anjali</span>
             </div>
 
           </div>
@@ -374,7 +375,7 @@
   </section>
 
   <!-- Modern Infinite Marquee of Artistic Highlights -->
-  <div class="bg-slate-950 py-3.5 border-y border-amber-500/30 overflow-hidden text-white">
+  <div class="bg-slate-950 py-2 border-y border-amber-500/30 overflow-hidden text-white">
     <div class="animate-marquee flex items-center gap-8 whitespace-nowrap text-xs font-bold uppercase tracking-wider text-amber-400/90">
       <span class="flex items-center gap-2">✨ 22 Air-Conditioned 3D Indoor Sets</span>
       <span class="text-slate-600">•</span>
@@ -411,57 +412,79 @@
     </div>
   </div>
 
-  <!-- Star Video Reel Feature Section (Mobile & Desktop) -->
-  <section id="video-tour" class="py-14 sm:py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden">
+  <!-- Star Video Reel Feature Section (Mobile Minimized & Desktop Compact) -->
+  <section id="video-tour" class="py-8 sm:py-12 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden">
     <div class="absolute -top-40 -left-40 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
     <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
         
-        <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
-          <div class="inline-flex items-center gap-2 bg-rose-950/80 border border-rose-500/40 text-rose-300 px-3.5 py-1 rounded-full text-xs font-bold shadow-sm">
+        <div class="lg:col-span-7 space-y-4 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 bg-rose-950/80 border border-rose-500/40 text-rose-300 px-3 py-1 rounded-full text-xs font-bold shadow-xs">
             <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
-            <span>Featured Star Reel Video</span>
+            <span>Featured Star Reel</span>
             <span class="text-rose-400">•</span>
             <span>@thetejastudios</span>
           </div>
 
-          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
-            See the 2-Acre Campus <br class="hidden sm:inline" />
-            <span class="text-amber-400">Come Alive In Motion</span>
+          <h2 class="font-serif text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+            See the 2-Acre Campus <span class="text-amber-400">Come Alive In Motion</span>
           </h2>
 
-          <p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Take a video walk through our 22+ air-conditioned 3D sets, serene outdoor green lawns, and candid baby setups. Experience why over 130+ Hyderabad families rate Teja Studios 4.8 stars on Google!
+          <p class="text-slate-300 text-xs sm:text-sm max-w-xl mx-auto lg:mx-0 leading-relaxed">
+            Take a 1-minute video walk through our 22+ air-conditioned indoor sets and 1-acre outdoor green lawn. Experience the real atmosphere!
           </p>
 
-          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-1">
             <button 
               type="button" 
-              class="open-reel-modal-btn inline-flex items-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold text-sm sm:text-base px-6 py-3.5 rounded-full shadow-lg shadow-amber-500/20 transition-all transform hover:scale-105"
+              class="open-reel-modal-btn inline-flex items-center gap-2.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold text-xs sm:text-sm px-5 py-3 rounded-full shadow-lg shadow-amber-500/20 transition-all transform hover:scale-105"
             >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-              <span>Watch Video Tour (Reel)</span>
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+              <span>Watch Reel Video</span>
             </button>
 
             <a 
               href="https://www.instagram.com/reel/DMP_aVItzFk/?dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" 
               target="_blank" 
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-700 text-sm px-5 py-3.5 rounded-full transition-colors"
+              class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs sm:text-sm px-4 py-3 rounded-full transition-colors"
             >
               <svg class="w-4 h-4 text-rose-400 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-              <span>Open in Instagram ↗</span>
+              <span>Instagram ↗</span>
             </a>
+          </div>
+
+          <!-- Minimized Mobile Reel Teaser Card (Takes only 80px instead of 500px!) -->
+          <div class="lg:hidden w-full max-w-sm mx-auto pt-2">
+            <div class="open-reel-modal-btn cursor-pointer bg-slate-900/90 hover:bg-slate-800 border border-amber-500/30 rounded-2xl p-2.5 flex items-center gap-3.5 transition-all shadow-md">
+              <div class="w-16 h-16 rounded-xl overflow-hidden relative flex-shrink-0 bg-black">
+                <img src="assets/branding/reel_cover.jpg" alt="Reel Teaser" class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+                  <div class="w-7 h-7 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center shadow">
+                    <svg class="w-3.5 h-3.5 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-1 min-w-0 text-left">
+                <div class="flex items-center gap-1.5 mb-0.5">
+                  <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+                  <span class="text-[10px] font-bold text-rose-400">@thetejastudios</span>
+                </div>
+                <h4 class="font-serif font-bold text-xs text-white truncate">1-Min Studio Video Tour</h4>
+                <p class="text-[10px] text-amber-300 font-semibold mt-0.5">Tap to play full video ▷</p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="lg:col-span-5 flex justify-center">
-          <div class="open-reel-modal-btn group relative cursor-pointer w-64 sm:w-72 aspect-[9/16] rounded-[2.5rem] p-3 bg-gradient-to-b from-slate-700 via-slate-800 to-slate-900 shadow-2xl border-4 border-slate-700/80 transform hover:-translate-y-2 transition-all duration-300">
-            <div class="absolute top-5 left-1/2 -translate-x-1/2 w-24 h-4 bg-slate-900 rounded-full z-20"></div>
+        <!-- Desktop Compact Phone Showcase (Hidden on Mobile) -->
+        <div class="hidden lg:flex lg:col-span-5 justify-center">
+          <div class="open-reel-modal-btn group relative cursor-pointer w-56 aspect-[9/16] rounded-[2rem] p-2.5 bg-gradient-to-b from-slate-700 via-slate-800 to-slate-900 shadow-2xl border-4 border-slate-700/80 transform hover:-translate-y-1.5 transition-all duration-300">
+            <div class="absolute top-4 left-1/2 -translate-x-1/2 w-20 h-3.5 bg-slate-900 rounded-full z-20"></div>
 
-            <div class="relative w-full h-full rounded-[2rem] overflow-hidden bg-black">
+            <div class="relative w-full h-full rounded-[1.6rem] overflow-hidden bg-black">
               <img 
                 src="assets/branding/reel_cover.jpg" 
                 alt="Teja Studios Star Reel Video" 
@@ -470,20 +493,20 @@
               <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-black/30"></div>
 
               <div class="absolute inset-0 flex items-center justify-center">
-                <div class="w-16 h-16 rounded-full bg-amber-500/90 text-slate-950 flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
-                  <svg class="w-8 h-8 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+                <div class="w-14 h-14 rounded-full bg-amber-500/90 text-slate-950 flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                  <svg class="w-7 h-7 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
                 </div>
               </div>
 
-              <div class="absolute bottom-5 left-4 right-4 text-white z-10">
-                <div class="flex items-center gap-2 mb-1">
-                  <img src="assets/branding/logo_circle.png" alt="Logo" class="w-6 h-6 object-contain rounded-full bg-amber-100" />
-                  <span class="text-xs font-bold">@thetejastudios</span>
+              <div class="absolute bottom-4 left-3 right-3 text-white z-10">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <img src="assets/branding/logo_circle.png" alt="Logo" class="w-5 h-5 object-contain rounded-full bg-amber-100" />
+                  <span class="text-[11px] font-bold">@thetejastudios</span>
                 </div>
-                <p class="text-xs text-slate-200 font-medium line-clamp-2">
-                  Studio tour: 22 AC indoor setups &amp; 1-acre garden in Hyderabad!
+                <p class="text-[11px] text-slate-200 font-medium line-clamp-1">
+                  22 AC sets &amp; 1-acre garden tour
                 </p>
-                <span class="text-[10px] text-amber-300 font-bold block mt-1">Tap to play video preview ▷</span>
+                <span class="text-[10px] text-amber-300 font-bold block mt-0.5">Tap to play ▷</span>
               </div>
             </div>
 
@@ -494,64 +517,19 @@
     </div>
   </section>
 
-  <!-- Core Highlights / The 3 Pillars -->
-  <section id="themes" class="py-12 bg-white border-y border-slate-200/60">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        
-        <div class="bg-gradient-to-br from-amber-50/70 to-white rounded-2xl p-6 border border-amber-200/80 shadow-sm flex items-start gap-4">
-          <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 font-extrabold flex items-center justify-center flex-shrink-0 text-xl shadow-sm">
-            2A
-          </div>
-          <div>
-            <h3 class="font-serif text-lg font-bold text-slate-900">2 Acres Integrated Studio</h3>
-            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
-              Hyderabad’s premier sprawling studio designed exclusively for maternity, babies, and kids milestone shoots.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-rose-50/70 to-white rounded-2xl p-6 border border-rose-200/80 shadow-sm flex items-start gap-4">
-          <div class="w-12 h-12 rounded-xl bg-rose-500 text-white font-extrabold flex items-center justify-center flex-shrink-0 text-xl shadow-sm">
-            22+
-          </div>
-          <div>
-            <h3 class="font-serif text-lg font-bold text-slate-900">22 AC Indoor 3D Themes</h3>
-            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
-              Fully air-conditioned indoor sets with professional lighting, so mothers and babies shoot in absolute comfort.
-            </p>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-emerald-50/70 to-white rounded-2xl p-6 border border-emerald-200/80 shadow-sm flex items-start gap-4">
-          <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white font-extrabold flex items-center justify-center flex-shrink-0 text-xl shadow-sm">
-            10+
-          </div>
-          <div>
-            <h3 class="font-serif text-lg font-bold text-slate-900">10 Outdoor Sets &amp; Garden</h3>
-            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
-              A 1-acre lush green lawn featuring cake smash zones, rustic pergolas, fairytale swings, and golden hour light.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
   <!-- Interactive Portfolio & 65+ Themes Showcase (Paginated for Mobile Elegance) -->
-  <section id="gallery" class="py-14 sm:py-20 bg-[#faf9f6]">
+  <section id="gallery" class="py-8 sm:py-12 bg-[#faf9f6]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+      <div class="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
         <span class="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full">
           65+ Handpicked Sets &amp; Real Portfolios
         </span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
+        <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2.5 tracking-tight">
           Explore Our Artistic Themes
         </h2>
-        <p class="text-slate-600 text-xs sm:text-base mt-2">
+        <p class="text-slate-600 text-xs sm:text-sm mt-1.5">
           Showing 6 themes at a time for smooth mobile browsing. Tap any photo to inspect or book!
         </p>
 
@@ -648,17 +626,17 @@
   </section>
 
   <!-- Studio Amenities Section -->
-  <section id="amenities" class="py-14 sm:py-20 bg-white border-y border-slate-200/70">
+  <section id="amenities" class="py-8 sm:py-12 bg-white border-y border-slate-200/70">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
         <span class="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full">
           Everything You Need In One Place
         </span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
+        <h2 class="font-serif text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2.5 tracking-tight">
           Why Photographers &amp; Families Choose Teja Studios
         </h2>
-        <p class="text-slate-600 text-xs sm:text-base mt-2">
+        <p class="text-slate-600 text-xs sm:text-sm mt-1.5">
           Designed from the ground up for maximum convenience, safety, and creative freedom.
         </p>
       </div>
@@ -716,86 +694,52 @@
   </section>
 
   <!-- Interactive Pricing & Shoot Cost Calculator Section -->
-  <section id="pricing" class="py-14 sm:py-20 bg-gradient-to-b from-[#faf9f6] via-amber-50/40 to-[#faf9f6]">
+  <section id="pricing" class="py-8 sm:py-12 bg-gradient-to-b from-[#faf9f6] via-amber-50/40 to-[#faf9f6]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
+      <div class="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
         <span class="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full">
           Transparent Rental Pricing
         </span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
+        <h2 class="font-serif text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2.5 tracking-tight">
           Simple, Fixed &amp; Affordable Studio Rate
         </h2>
-        <p class="text-slate-600 text-xs sm:text-base mt-2">
+        <p class="text-slate-600 text-xs sm:text-sm mt-1.5">
           Rent our complete 2-acre studio at flat ₹2,500/hour. Bring your own photographer or use our sets freely with zero hidden charges.
         </p>
       </div>
 
-      <!-- Single Verified Official Pricing Card -->
-      <div class="max-w-2xl mx-auto mb-12 sm:mb-14">
-        <div class="relative bg-white rounded-3xl p-6 sm:p-9 border-2 border-amber-500 shadow-xl">
-          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-xs font-extrabold uppercase px-4 py-1 rounded-full shadow-sm tracking-wide">
-            Official Studio Rate • Fixed Price
-          </div>
-          
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-6 mb-6">
-            <div>
-              <div class="flex items-center gap-2">
-                <span class="text-2xl">📸</span>
-                <h3 class="font-serif text-2xl font-bold text-slate-900">Hourly Studio Rental</h3>
-              </div>
-              <p class="text-xs sm:text-sm text-slate-500 mt-1">Bring your own preferred photographer or shoot freely</p>
+      <!-- Unified Interactive Pricing & Calculator Card -->
+      <div id="calculator" class="bg-white rounded-3xl p-5 sm:p-9 border border-amber-500/40 shadow-xl max-w-3xl mx-auto">
+        
+        <!-- Rate Summary Banner -->
+        <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 text-white rounded-2xl p-4 sm:p-5 mb-6 sm:mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="w-11 h-11 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 flex-shrink-0 text-xl">
+              📸
             </div>
             <div>
-              <div class="flex items-baseline gap-1">
-                <span class="font-serif text-4xl sm:text-5xl font-extrabold text-slate-900">₹2,500</span>
-                <span class="text-slate-500 text-sm font-semibold">/ Hour</span>
+              <span class="text-[10px] uppercase font-bold text-amber-400 tracking-wider block">Official Studio Rental</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="font-serif text-3xl font-extrabold text-white">₹2,500</span>
+                <span class="text-xs text-slate-300">/ Hour</span>
+                <span class="text-[10px] bg-emerald-500/20 text-emerald-300 font-bold px-2 py-0.5 rounded-full border border-emerald-500/30 ml-1">Fixed Rate</span>
               </div>
-              <span class="text-[11px] text-emerald-600 font-bold block mt-0.5">✓ Fixed Price • No Hidden Charges</span>
             </div>
           </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700 mb-8">
-            <div class="flex items-center gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
-              <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-              <span>Full access to <strong>22 AC Indoor 3D Sets</strong></span>
+          <div class="text-xs text-slate-300 sm:border-l sm:border-slate-800 sm:pl-4 space-y-1">
+            <div class="flex items-center gap-1.5">
+              <span class="text-emerald-400">✓</span> <span>22 AC Sets + 1-Acre Garden</span>
             </div>
-            <div class="flex items-center gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
-              <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-              <span>Full access to <strong>1-Acre Outdoor Garden</strong></span>
-            </div>
-            <div class="flex items-center gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
-              <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-              <span><strong>Complimentary AC Private Suite</strong></span>
-            </div>
-            <div class="flex items-center gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
-              <svg class="w-4 h-4 text-emerald-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-              <span><strong>Free Costumes &amp; Baby Props</strong></span>
+            <div class="flex items-center gap-1.5">
+              <span class="text-emerald-400">✓</span> <span>Free AC Suite &amp; Costumes Included</span>
             </div>
           </div>
-
-          <a 
-            href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20book%20an%20hourly%20studio%20rental%20slot%20at%20₹2500/hr!" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="w-full flex items-center justify-center gap-2.5 py-4 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold rounded-2xl shadow-md transition-all text-sm sm:text-base"
-          >
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-            <span>Book Hourly Slot on WhatsApp</span>
-          </a>
         </div>
-      </div>
 
-      <!-- Interactive Calculator Card -->
-      <div id="calculator" class="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-lg max-w-4xl mx-auto">
-        <div class="border-b border-slate-100 pb-5 mb-6 sm:mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-          <div>
-            <span class="text-xs font-bold text-amber-600 uppercase tracking-wider block">Interactive Estimator</span>
-            <h3 class="font-serif text-2xl font-bold text-slate-900 mt-0.5">Calculate Your Shoot Cost</h3>
-          </div>
-          <span class="text-xs bg-emerald-50 text-emerald-700 font-bold px-3 py-1.5 rounded-full border border-emerald-200">
-            Base Studio Rent: ₹2,500/hr
-          </span>
+        <div class="border-b border-slate-100 pb-3 mb-5 flex items-center justify-between">
+          <h3 class="font-serif text-lg sm:text-xl font-bold text-slate-900">Calculate Shoot Estimate</h3>
+          <span class="text-[11px] text-slate-500 font-medium">Select hours below</span>
         </div>
 
         <form class="space-y-6" onsubmit="event.preventDefault()">
@@ -873,19 +817,19 @@
   </section>
 
   <!-- Google Reviews & Verified Feedback Section (4 Initially, View 6 More, Maps Redirect for Truncated) -->
-  <section id="reviews" class="py-14 sm:py-20 bg-white border-b border-slate-200/80">
+  <section id="reviews" class="py-8 sm:py-12 bg-white border-b border-slate-200/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6 mb-8 sm:mb-10">
+      <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-5 mb-5 sm:mb-6">
         <div>
-          <div class="inline-flex items-center gap-2 bg-amber-100 text-amber-900 text-xs font-bold px-3 py-1 rounded-full mb-3">
+          <div class="inline-flex items-center gap-2 bg-amber-100 text-amber-900 text-xs font-bold px-3 py-1 rounded-full mb-2.5">
             <svg class="w-3.5 h-3.5 text-amber-600" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
             <span>Verified Customer Reviews</span>
           </div>
-          <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 class="font-serif text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Loved By 130+ Happy Families
           </h2>
-          <p class="text-slate-600 text-xs sm:text-base mt-2">
+          <p class="text-slate-600 text-xs sm:text-sm mt-1.5">
             Showing 4 reviews initially. Click below to load 6 more or view the entire collection!
           </p>
         </div>
@@ -894,7 +838,7 @@
           href="https://maps.app.goo.gl/i5DWxe9zMsW9Paca8" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="bg-slate-50 border border-slate-200/90 rounded-2xl p-4 flex items-center gap-4 hover:border-amber-400 transition-colors shadow-sm"
+          class="bg-slate-50 border border-slate-200/90 rounded-2xl p-3.5 flex items-center gap-4 hover:border-amber-400 transition-colors shadow-sm"
         >
           <div class="text-center pr-4 border-r border-slate-200">
             <span class="font-serif text-3xl font-extrabold text-slate-900">4.8</span>
@@ -983,17 +927,17 @@
   </section>
 
   <!-- FAQ Section (Accordion) -->
-  <section class="py-14 sm:py-20 bg-[#faf9f6]">
+  <section class="py-8 sm:py-12 bg-[#faf9f6]">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center mb-10 sm:mb-14">
+      <div class="text-center mb-6 sm:mb-8">
         <span class="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full">
           Got Questions?
         </span>
-        <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
+        <h2 class="font-serif text-2xl sm:text-4xl font-extrabold text-slate-900 mt-2.5 tracking-tight">
           Frequently Asked Questions
         </h2>
-        <p class="text-slate-600 text-xs sm:text-sm mt-2">
+        <p class="text-slate-600 text-xs sm:text-sm mt-1.5">
           Everything you need to know about booking, set access, and shoot policies.
         </p>
       </div>
@@ -1081,23 +1025,23 @@
   </section>
 
   <!-- Location & Visit Section -->
-  <section id="location" class="py-14 sm:py-20 bg-white border-t border-slate-200/80">
+  <section id="location" class="py-8 sm:py-12 bg-white border-t border-slate-200/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         
-        <div class="lg:col-span-5 space-y-5 sm:space-y-6">
+        <div class="lg:col-span-5 space-y-4 sm:space-y-5">
           <span class="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-100 px-3.5 py-1 rounded-full">
             Visit Our Studio
           </span>
-          <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 class="font-serif text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Prime Highway Location &amp; Easy Access
           </h2>
           <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
             Located conveniently along the Kompally - Medchal highway with seamless connectivity from ORR Exit 6. Free from city congestion, peaceful, and green.
           </p>
 
-          <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-5 sm:p-6 space-y-4">
+          <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 sm:p-5 space-y-3.5">
             <div class="flex items-start gap-3.5">
               <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-800 flex items-center justify-center flex-shrink-0 mt-0.5">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
@@ -1156,7 +1100,7 @@
         </div>
 
         <div class="lg:col-span-7">
-          <div class="w-full h-80 sm:h-96 lg:h-[420px] rounded-3xl overflow-hidden shadow-xl border border-slate-200 relative bg-slate-100">
+          <div class="w-full h-80 sm:h-96 lg:h-[400px] rounded-3xl overflow-hidden shadow-xl border border-slate-200 relative bg-slate-100">
             <iframe 
               title="Teja Studios Google Maps Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.351280978716!2d78.47352377592474!3d17.585521483333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f3cf58bb03b%3A0xe54e613b5dc9996!2sTEJA%20STUDIOS!5e0!3m2!1sen!2sin!4v1728700000000!5m2!1sen!2sin" 
@@ -1174,10 +1118,10 @@
   </section>
 
   <!-- Footer with Developer Attribution -->
-  <footer class="bg-slate-950 text-slate-400 text-xs py-14 border-t border-slate-900">
+  <footer class="bg-slate-950 text-slate-400 text-xs py-8 sm:py-10 border-t border-slate-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
         
         <div class="space-y-4 md:col-span-1">
           <div class="flex items-center gap-3">
@@ -1200,7 +1144,7 @@
         <div>
           <h4 class="font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
           <ul class="space-y-2.5">
-            <li><a href="#themes" class="hover:text-amber-400 transition-colors">22 AC Indoor Sets</a></li>
+            <li><a href="#amenities" class="hover:text-amber-400 transition-colors">22 AC Indoor Sets &amp; Amenities</a></li>
             <li><a href="#video-tour" class="hover:text-amber-400 transition-colors">Star Reel Video Tour</a></li>
             <li><a href="#pricing" class="hover:text-amber-400 transition-colors">Hourly Rental Rates (₹2,500/hr)</a></li>
             <li><a href="#gallery" class="hover:text-amber-400 transition-colors">65+ Portfolio Sets</a></li>
