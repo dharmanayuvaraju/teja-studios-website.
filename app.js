@@ -206,7 +206,7 @@ function updateLightboxContent() {
 // ==================== REVIEWS SYSTEM (4 Initially, View 6 More, Maps Redirect for Truncated) ====================
 let displayedReviewsCount = 4; // Start with 4 reviews only
 let currentReviewFilter = 'all';
-const MAPS_REVIEWS_URL = 'https://maps.app.goo.gl/i5DWxe9zMsW9Paca8';
+const MAPS_REVIEWS_URL = 'https://www.google.com/maps/place/TEJA+STUDIOS/@17.5933003,78.4941827,17z/data=!4m8!3m7!1s0x3bcb85914736d049:0x6bcefe2770b2d69b!8m2!3d17.5933003!4d78.4941827!9m1!1b1!16s%2Fg%2F11x6rwd3b_';
 
 function initReviews() {
   const container = document.getElementById('reviewsContainer');
