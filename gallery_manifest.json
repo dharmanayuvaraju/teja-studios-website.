@@ -1,0 +1,184 @@
+[
+  {
+    "file": "assets/gallery/maternity/maternity_1.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_10.jpg",
+    "category": "maternity",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_11.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1500
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_12.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_2.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_3.jpg",
+    "category": "maternity",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_4.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1500
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_5.jpg",
+    "category": "maternity",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_6.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_7.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1500
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_8.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/maternity/maternity_9.jpg",
+    "category": "maternity",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/kids/kids_1.jpg",
+    "category": "kids",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1500
+  },
+  {
+    "file": "assets/gallery/kids/kids_10.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_11.jpg",
+    "category": "kids",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/kids/kids_12.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_13.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_14.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_2.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_3.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_4.jpg",
+    "category": "kids",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "assets/gallery/kids/kids_5.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_6.jpg",
+    "category": "kids",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/kids/kids_7.jpg",
+    "category": "kids",
+    "aspect": "landscape",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "assets/gallery/kids/kids_8.jpg",
+    "category": "kids",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1799
+  },
+  {
+    "file": "assets/gallery/kids/kids_9.jpg",
+    "category": "kids",
+    "aspect": "portrait",
+    "width": 1200,
+    "height": 1800
+  }
+]

@@ -1,0 +1,13 @@
+# Vercel & Deployment
+.vercel
+node_modules
+*.log
+
+# Scratch Python Scripts
+parse_reel.py
+parse_reviews.py
+raw_reviews.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
