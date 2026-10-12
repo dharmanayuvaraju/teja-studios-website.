@@ -101,10 +101,20 @@
           Offer
         </span>
         <span class="text-slate-300 font-medium text-[11px] sm:text-xs truncate">
-          2-Acre Studio Rental at <strong class="text-amber-400 font-bold">₹2,500 / Hr</strong> • 22 AC Sets
+          2-Acre Studio Rental at <strong class="text-amber-400 font-bold">₹2,500 / Hr</strong> • 22 AC Sets + 1-Acre Garden
         </span>
       </div>
-      <div class="flex items-center gap-3 text-slate-400 flex-shrink-0">
+      <div class="flex items-center gap-2.5 sm:gap-3 text-slate-400 flex-shrink-0">
+        <a 
+          href="https://www.linkedin.com/in/dharmana-yuvaraju/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 text-[10px] sm:text-[11px] font-semibold text-amber-300 hover:text-white bg-slate-900 px-2.5 py-0.5 rounded-full border border-amber-500/30 transition-colors"
+          title="Website Developer Profile"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Developer ↗</span>
+        </a>
         <a href="tel:+919515109009" class="hover:text-amber-400 transition-colors flex items-center gap-1.5 font-semibold text-[11px] sm:text-xs text-amber-300">
           <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path></svg>
           <span>095151 09009</span>
@@ -115,45 +125,45 @@
 
   <!-- Sticky Navbar -->
   <header id="mainHeader" class="sticky top-0 z-40 glass-header transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[4.25rem] sm:min-h-[4.75rem] py-2 flex items-center justify-between">
       
-      <!-- Logo & Title -->
-      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group">
-        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-amber-500/50 shadow-sm bg-amber-50/50 flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+      <!-- Brand Logo & Name (Generous line height to ensure 'TEJA' is never clipped) -->
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 flex-shrink-0 group">
+        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-amber-500/60 shadow-sm bg-white flex-shrink-0 p-0.5 transition-transform duration-300 group-hover:scale-105">
           <img src="assets/branding/logo_circle.png" alt="Teja Studios Logo" class="w-full h-full object-contain" />
         </div>
-        <div>
-          <span class="font-serif text-lg sm:text-2xl font-bold tracking-tight text-slate-900 block leading-tight">
+        <div class="flex flex-col justify-center">
+          <span class="font-serif text-lg sm:text-2xl font-black tracking-tight text-slate-900 leading-normal block pt-0.5">
             TEJA <span class="text-amber-600">STUDIOS</span>
           </span>
-          <span class="text-[10px] sm:text-[11px] font-medium tracking-wide text-slate-500 uppercase block">
+          <span class="text-[9px] sm:text-[10px] font-bold tracking-wider text-slate-500 uppercase block -mt-0.5">
             2-Acre Photography Campus
           </span>
         </div>
       </a>
 
-      <!-- Desktop Navigation Links -->
-      <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-700">
-        <a href="#gallery" class="hover:text-amber-600 transition-colors">65+ Portfolio Sets</a>
+      <!-- Desktop Navigation Links (Spacious, concise labels to prevent any overlap) -->
+      <nav class="hidden xl:flex items-center gap-7 text-sm font-semibold text-slate-700">
+        <a href="#gallery" class="hover:text-amber-600 transition-colors">65+ Sets</a>
         <a href="#video-tour" class="hover:text-amber-600 transition-colors flex items-center gap-1.5">
           <span>Star Reel</span>
           <span class="px-1.5 py-0.5 rounded-full text-[10px] bg-rose-500 text-white font-bold">Watch</span>
         </a>
-        <a href="#amenities" class="hover:text-amber-600 transition-colors">Studio Amenities</a>
+        <a href="#amenities" class="hover:text-amber-600 transition-colors">Amenities</a>
         <a href="#pricing" class="hover:text-amber-600 transition-colors">Pricing (₹2,500/hr)</a>
         <a href="#reviews" class="hover:text-amber-600 transition-colors">Reviews (136+)</a>
-        <a href="#location" class="hover:text-amber-600 transition-colors">Directions</a>
+        <a href="#location" class="hover:text-amber-600 transition-colors">Location</a>
       </nav>
 
-      <!-- Right Actions: Dev Button + Booking CTAs + Mobile Menu -->
-      <div class="flex items-center gap-2 sm:gap-3">
+      <!-- Right Actions -->
+      <div class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
         
-        <!-- Developer Button at Top (No name displayed, redirects to LinkedIn on tap) -->
+        <!-- Developer Button (Desktop only; cleanly separated, no name displayed) -->
         <a 
           href="https://www.linkedin.com/in/dharmana-yuvaraju/" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="inline-flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-amber-300 hover:text-amber-200 text-[11px] font-bold px-2.5 sm:px-3 py-1.5 rounded-full border border-amber-500/40 shadow-xs transition-all hover:scale-105"
+          class="hidden sm:inline-flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-amber-300 hover:text-amber-200 text-[11px] font-bold px-3 py-1.5 rounded-full border border-amber-500/40 shadow-xs transition-all hover:scale-105 whitespace-nowrap"
           title="Website Developer Profile"
         >
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -161,32 +171,31 @@
           <svg class="w-3 h-3 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>
 
-        <!-- Desktop CTAs -->
-        <div class="hidden sm:flex items-center gap-2.5">
-          <a 
-            href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20shoot%20slot!" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm px-3.5 py-2 rounded-full shadow-sm hover:shadow transition-all"
-          >
-            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-            <span>WhatsApp</span>
-          </a>
+        <!-- WhatsApp Button -->
+        <a 
+          href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20shoot%20slot!" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm px-3 sm:px-3.5 py-2 rounded-full shadow-sm hover:shadow transition-all"
+        >
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          <span class="hidden xs:inline">WhatsApp</span>
+        </a>
 
-          <button 
-            type="button" 
-            class="open-booking-modal-btn bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs sm:text-sm px-3.5 py-2 rounded-full shadow-sm hover:shadow transition-all"
-          >
-            Book Slot
-          </button>
-        </div>
+        <!-- Book Slot CTA -->
+        <button 
+          type="button" 
+          class="open-booking-modal-btn hidden md:inline-flex bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs sm:text-sm px-3.5 py-2 rounded-full shadow-sm hover:shadow transition-all"
+        >
+          Book Slot
+        </button>
 
         <!-- Mobile Hamburger Button -->
         <button 
           id="mobileMenuBtn" 
           type="button" 
           aria-label="Open mobile menu"
-          class="lg:hidden p-2 rounded-lg text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-colors"
+          class="xl:hidden p-2 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-colors"
         >
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
@@ -199,23 +208,25 @@
   <div id="mobileNavDrawer" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm hidden">
     <div class="fixed top-0 right-0 w-4/5 max-w-sm h-full bg-white shadow-2xl p-6 flex flex-col justify-between overflow-y-auto">
       <div>
-        <div class="flex items-center justify-between pb-6 border-b border-slate-100">
-          <div class="flex items-center gap-2">
+        <div class="flex items-center justify-between pb-5 border-b border-slate-100">
+          <div class="flex items-center gap-2.5">
             <img src="assets/branding/logo_circle.png" alt="Logo" class="w-10 h-10 object-contain" />
-            <span class="font-serif font-bold text-lg text-slate-900">TEJA STUDIOS</span>
+            <div>
+              <span class="font-serif font-black text-lg text-slate-900 block leading-tight">TEJA STUDIOS</span>
+              <span class="text-[9px] font-bold text-slate-500 uppercase tracking-wider block">2-Acre Campus</span>
+            </div>
           </div>
           <button id="closeMobileNav" type="button" aria-label="Close menu" class="p-2 text-slate-500 hover:text-slate-800">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
           </button>
         </div>
 
-        <nav class="mt-6 flex flex-col gap-4 text-base font-semibold text-slate-700">
-          <a href="#themes" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Sets &amp; Themes</a>
+        <nav class="mt-5 flex flex-col gap-3.5 text-sm font-semibold text-slate-700">
+          <a href="#gallery" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">65+ Portfolio Sets</a>
           <a href="#video-tour" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600 flex items-center justify-between">
             <span>Star Reel Video</span>
             <span class="px-2 py-0.5 rounded-full text-xs bg-rose-500 text-white font-bold">Watch</span>
           </a>
-          <a href="#gallery" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">65+ Portfolio Sets</a>
           <a href="#amenities" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Studio Amenities</a>
           <a href="#pricing" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Rental Pricing (₹2,500/hr)</a>
           <a href="#reviews" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Reviews (136+)</a>
@@ -223,20 +234,29 @@
         </nav>
       </div>
 
-      <div class="pt-6 border-t border-slate-100 flex flex-col gap-3">
+      <div class="pt-5 border-t border-slate-100 flex flex-col gap-2.5">
         <a 
           href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20shoot%20slot!" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="w-full text-center py-3 bg-emerald-600 text-white font-bold rounded-xl shadow flex items-center justify-center gap-2"
+          class="w-full text-center py-3 bg-emerald-600 text-white font-bold rounded-xl shadow flex items-center justify-center gap-2 text-sm"
         >
           Chat on WhatsApp
         </a>
         <a 
           href="tel:+919515109009" 
-          class="w-full text-center py-3 bg-slate-900 text-white font-bold rounded-xl shadow flex items-center justify-center gap-2"
+          class="w-full text-center py-3 bg-slate-900 text-white font-bold rounded-xl shadow flex items-center justify-center gap-2 text-sm"
         >
           Call 095151 09009
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/dharmana-yuvaraju/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="w-full text-center py-2.5 bg-slate-950 text-amber-300 font-bold rounded-xl border border-amber-500/40 shadow flex items-center justify-center gap-2 text-xs mt-1"
+        >
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Website Developer Profile ↗</span>
         </a>
       </div>
     </div>
@@ -250,40 +270,48 @@
         <!-- Left Content Column -->
         <div class="lg:col-span-7 flex flex-col items-start space-y-4 sm:space-y-5">
 
+          <!-- Artistic Category Tag -->
+          <div class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-50 to-amber-100/90 border border-amber-300/80 rounded-full px-3.5 py-1 text-[11px] font-bold text-amber-900 shadow-xs">
+            <span class="text-amber-500">✦</span>
+            <span class="uppercase tracking-wider">Hyderabad’s Premier Photography &amp; Rental Studio</span>
+          </div>
+
           <!-- Main Headline -->
-          <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.18]">
+          <h1 class="font-serif text-3xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight text-slate-900 leading-[1.15]">
             Hyderabad’s Largest <span class="gold-gradient-text">2-Acre</span> Photography Studio
           </h1>
 
-          <p class="text-slate-600 text-xs sm:text-base max-w-2xl leading-relaxed">
-            Exclusively crafted for <strong>Newborn</strong>, <strong>Kids Milestones</strong>, and <strong>Maternity</strong> shoots. Explore <strong>22+ fully air-conditioned 3D indoor sets</strong> and <strong>10+ outdoor garden themes</strong> across a 1-acre lush green paradise.
+          <p class="text-slate-600 text-xs sm:text-base max-w-xl leading-relaxed">
+            Exclusively crafted for <strong>Newborn Milestones</strong>, <strong>Kids First Birthdays</strong>, and <strong>Maternity Portraits</strong>. Immerse in <strong>22+ fully air-conditioned 3D sets</strong> and <strong>10+ outdoor garden themes</strong> across a 1-acre lush green paradise.
           </p>
 
           <!-- Highlight Pricing Banner Card -->
-          <div class="w-full bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-3.5 sm:p-4 border border-amber-500/30 shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-6">
+          <div class="w-full bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 text-white rounded-2xl p-3.5 sm:p-4 border border-amber-500/30 shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-6">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 flex-shrink-0">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 flex-shrink-0 text-lg">
+                📸
               </div>
               <div>
                 <span class="text-[10px] uppercase tracking-wider text-amber-400 font-bold block">Fixed Studio Rental</span>
-                <span class="font-serif text-2xl font-extrabold text-white">₹2,500 <span class="text-xs font-sans font-normal text-slate-300">/ Hour</span></span>
+                <div class="flex items-baseline gap-1">
+                  <span class="font-serif text-2xl sm:text-3xl font-extrabold text-white">₹2,500</span>
+                  <span class="text-xs font-sans font-normal text-slate-300">/ Hour</span>
+                  <span class="text-[9px] bg-emerald-500/20 text-emerald-300 font-bold px-1.5 py-0.5 rounded-full border border-emerald-500/30 ml-1">Flat Rate</span>
+                </div>
               </div>
             </div>
-            <div class="text-xs text-slate-300 sm:border-l sm:border-slate-700 sm:pl-5 space-y-0.5">
+            <div class="text-xs text-slate-300 sm:border-l sm:border-slate-800 sm:pl-4 space-y-1">
               <div class="flex items-center gap-1.5">
-                <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                <span>22 AC Sets + 1-Acre Garden</span>
+                <span class="text-emerald-400">✓</span> <span>22 AC Sets + 1-Acre Garden</span>
               </div>
               <div class="flex items-center gap-1.5">
-                <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                <span>Free AC Room &amp; Costumes Included</span>
+                <span class="text-emerald-400">✓</span> <span>Free AC Room &amp; Costumes Included</span>
               </div>
             </div>
           </div>
 
           <!-- Action Buttons -->
-          <div class="flex flex-wrap items-center gap-2.5 sm:gap-3.5 pt-1 w-full sm:w-auto">
+          <div class="flex flex-wrap items-center gap-2.5 sm:gap-3 pt-1 w-full sm:w-auto">
             <a 
               href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20would%20like%20to%20book%20a%20shoot%20slot%20at%20₹2500/hr!" 
               target="_blank" 
@@ -296,56 +324,61 @@
 
             <button 
               type="button" 
-              class="open-reel-modal-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs sm:text-sm px-4 py-3 rounded-full shadow transition-all"
+              class="open-reel-modal-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm px-4.5 py-3 rounded-full shadow border border-slate-700 transition-all"
             >
-              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              <span class="w-4 h-4 rounded-full bg-rose-600 flex items-center justify-center text-white text-[9px] font-bold">▶</span>
               <span>Watch Star Reel Video</span>
             </button>
           </div>
 
         </div>
 
-        <!-- Right Visual Showcase Column -->
-        <div class="lg:col-span-5 relative mt-2 lg:mt-0">
+        <!-- Right Visual Showcase Column (Clean, Artistic, Zero Clumsy Overlaps) -->
+        <div class="lg:col-span-5 relative mt-4 lg:mt-0">
           <div class="relative mx-auto max-w-sm sm:max-w-md lg:max-w-none">
             
-            <div class="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-slate-100 aspect-[4/3] sm:aspect-[4/5]">
+            <!-- Main Artistic Portrait Card -->
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-amber-500/30 bg-slate-900 aspect-[4/3] sm:aspect-[4/5] group">
               <img 
                 src="assets/gallery/maternity/maternity_1.jpg" 
                 alt="Teja Studios Maternity Shoot in Outdoor 1-Acre Garden" 
                 fetchpriority="high"
                 loading="eager"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
               
-              <div class="absolute bottom-4 left-4 right-4 text-white">
-                <span class="text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-slate-950/70 px-2 py-0.5 rounded-full backdrop-blur-md inline-block mb-1">
-                  1-Acre Garden Sunset Theme
-                </span>
-                <p class="font-serif text-sm sm:text-base font-bold">Unforgettable Maternity Portraits</p>
-                <p class="text-[10px] sm:text-xs text-slate-300">Natural sunlight, romantic backdrops &amp; designer gowns</p>
+              <!-- Clean Bottom Caption Bar (Legible, Unobstructed) -->
+              <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+                <div class="inline-flex items-center gap-1.5 bg-slate-950/80 border border-amber-500/40 text-amber-300 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full backdrop-blur-md mb-1.5">
+                  <span>✨ 1-Acre Lush Garden &amp; 22 AC Themes</span>
+                </div>
+                <h3 class="font-serif text-base sm:text-lg font-bold text-white">Unforgettable Maternity &amp; Kids Portraits</h3>
+                <p class="text-[11px] sm:text-xs text-slate-300 mt-0.5">Natural sunlight backdrops, free designer gowns &amp; sanitized props</p>
               </div>
             </div>
 
-            <div class="absolute -bottom-4 -left-3 sm:-bottom-5 sm:-left-6 bg-white p-2 sm:p-2.5 rounded-2xl shadow-lg border border-slate-100 flex items-center gap-2.5 max-w-[210px] sm:max-w-[240px]">
-              <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden flex-shrink-0 bg-slate-100">
-                <img src="assets/gallery/kids/kids_1.jpg" alt="Newborn baby photography setup" class="w-full h-full object-cover" />
+            <!-- Clean Highlight Grid (Below the Image — NEVER Overlapping or clumsy) -->
+            <div class="mt-3.5 grid grid-cols-2 gap-2.5 sm:gap-3">
+              <div class="bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-2xl p-2.5 sm:p-3 flex items-center gap-2.5 shadow-xs">
+                <div class="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 text-sm">
+                  🛡️
+                </div>
+                <div>
+                  <span class="text-[9px] uppercase font-bold text-emerald-700 block">100% Baby-Safe</span>
+                  <span class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight block">Sanitized Newborn Sets</span>
+                </div>
               </div>
-              <div>
-                <span class="text-[9px] uppercase font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded-full inline-block">100% Baby Safe</span>
-                <p class="text-[11px] font-bold text-slate-800 leading-tight">Sanitized Newborn Sets</p>
-              </div>
-            </div>
 
-            <div class="absolute -top-3 -right-2 sm:-right-4 bg-slate-900/95 text-white p-2.5 sm:p-3 rounded-2xl shadow-lg border border-amber-500/30 backdrop-blur-md max-w-[190px] sm:max-w-[220px]">
-              <div class="flex items-center gap-1 text-amber-400 text-[11px] mb-0.5">
-                ★★★★★ <span class="text-slate-300 font-bold ml-1">5.0</span>
+              <div class="bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-2xl p-2.5 sm:p-3 flex items-center gap-2.5 shadow-xs">
+                <div class="w-8 h-8 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center flex-shrink-0 text-sm">
+                  👑
+                </div>
+                <div>
+                  <span class="text-[9px] uppercase font-bold text-amber-700 block">Private Comfort</span>
+                  <span class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight block">Free AC Vanity Suite</span>
+                </div>
               </div>
-              <p class="text-[10px] text-slate-200 italic line-clamp-2 leading-snug">
-                "The album completely stole my heart!"
-              </p>
-              <span class="text-[9px] text-amber-300 font-medium block mt-0.5">— Aparna Anjali</span>
             </div>
 
           </div>
