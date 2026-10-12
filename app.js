@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   initStickyHeader();
   initDatePickers();
-  initReelPlayer();
 });
 
 // ==================== GALLERY SYSTEM (6 Initially, View 6 More, Category Filters) ====================
@@ -419,13 +418,12 @@ function initCalculator() {
   recalculate();
 }
 
-// Dialog Modals (Lightbox & Quick Booking & Reel Modal)
+// Dialog Modals (Lightbox & Quick Booking)
 function initModals() {
   const lightbox = document.getElementById('lightboxModal');
   const bookingModal = document.getElementById('bookingModal');
-  const reelModal = document.getElementById('reelModal');
 
-  [lightbox, bookingModal, reelModal].forEach(dialog => {
+  [lightbox, bookingModal].forEach(dialog => {
     if (!dialog) return;
     dialog.addEventListener('click', (e) => {
       const rect = dialog.getBoundingClientRect();
@@ -498,36 +496,6 @@ function initModals() {
 
       window.open(`https://wa.me/919515109009?text=${encodeURIComponent(msg)}`, '_blank');
       bookingModal.close();
-    });
-  }
-}
-
-// Reel Player & Modal
-function initReelPlayer() {
-  const openReelBtns = document.querySelectorAll('.open-reel-modal-btn');
-  const reelModal = document.getElementById('reelModal');
-  const closeReelBtn = document.getElementById('closeReelModal');
-  const reelIframe = document.getElementById('reelIframe');
-
-  if (!reelModal) return;
-
-  openReelBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      if (reelIframe && !reelIframe.src) {
-        reelIframe.src = 'https://www.instagram.com/reel/DMP_aVItzFk/embed/';
-      }
-      reelModal.showModal();
-    });
-  });
-
-  if (closeReelBtn) {
-    closeReelBtn.addEventListener('click', () => {
-      reelModal.close();
-      if (reelIframe) {
-        const currentSrc = reelIframe.src;
-        reelIframe.src = '';
-        setTimeout(() => { reelIframe.src = currentSrc; }, 100);
-      }
     });
   }
 }

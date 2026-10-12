@@ -145,10 +145,6 @@
       <!-- Desktop Navigation Links (Spacious, concise labels to prevent any overlap) -->
       <nav class="hidden xl:flex items-center gap-7 text-sm font-semibold text-slate-700">
         <a href="#gallery" class="hover:text-amber-600 transition-colors">65+ Sets</a>
-        <a href="#video-tour" class="hover:text-amber-600 transition-colors flex items-center gap-1.5">
-          <span>Star Reel</span>
-          <span class="px-1.5 py-0.5 rounded-full text-[10px] bg-rose-500 text-white font-bold">Watch</span>
-        </a>
         <a href="#amenities" class="hover:text-amber-600 transition-colors">Amenities</a>
         <a href="#pricing" class="hover:text-amber-600 transition-colors">Pricing (₹2,500/hr)</a>
         <a href="#reviews" class="hover:text-amber-600 transition-colors">Reviews (136+)</a>
@@ -223,10 +219,6 @@
 
         <nav class="mt-5 flex flex-col gap-3.5 text-sm font-semibold text-slate-700">
           <a href="#gallery" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">65+ Portfolio Sets</a>
-          <a href="#video-tour" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600 flex items-center justify-between">
-            <span>Star Reel Video</span>
-            <span class="px-2 py-0.5 rounded-full text-xs bg-rose-500 text-white font-bold">Watch</span>
-          </a>
           <a href="#amenities" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Studio Amenities</a>
           <a href="#pricing" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Rental Pricing (₹2,500/hr)</a>
           <a href="#reviews" class="mobile-nav-link py-2 border-b border-slate-50 hover:text-amber-600">Reviews (136+)</a>
@@ -322,13 +314,13 @@
               <span>Instant WhatsApp Booking</span>
             </a>
 
-            <button 
-              type="button" 
-              class="open-reel-modal-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm px-4.5 py-3 rounded-full shadow border border-slate-700 transition-all"
+            <a 
+              href="#gallery" 
+              class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-amber-300 font-bold text-xs sm:text-sm px-5 py-3 rounded-full shadow border border-amber-500/40 transition-all hover:scale-105"
             >
-              <span class="w-4 h-4 rounded-full bg-rose-600 flex items-center justify-center text-white text-[9px] font-bold">▶</span>
-              <span>Watch Star Reel Video</span>
-            </button>
+              <span>Explore 65+ Sets</span>
+              <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </a>
           </div>
 
         </div>
@@ -426,110 +418,7 @@
     </div>
   </div>
 
-  <!-- Star Video Reel Feature Section (Mobile Minimized & Desktop Compact) -->
-  <section id="video-tour" class="py-8 sm:py-12 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden">
-    <div class="absolute -top-40 -left-40 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
-    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
-        
-        <div class="lg:col-span-7 space-y-4 text-center lg:text-left">
-          <div class="inline-flex items-center gap-2 bg-rose-950/80 border border-rose-500/40 text-rose-300 px-3 py-1 rounded-full text-xs font-bold shadow-xs">
-            <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
-            <span>Featured Star Reel</span>
-            <span class="text-rose-400">•</span>
-            <span>@thetejastudios</span>
-          </div>
-
-          <h2 class="font-serif text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-            See the 2-Acre Campus <span class="text-amber-400">Come Alive In Motion</span>
-          </h2>
-
-          <p class="text-slate-300 text-xs sm:text-sm max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Take a 1-minute video walk through our 22+ air-conditioned indoor sets and 1-acre outdoor green lawn. Experience the real atmosphere!
-          </p>
-
-          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-1">
-            <button 
-              type="button" 
-              class="open-reel-modal-btn inline-flex items-center gap-2.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold text-xs sm:text-sm px-5 py-3 rounded-full shadow-lg shadow-amber-500/20 transition-all transform hover:scale-105"
-            >
-              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-              <span>Watch Reel Video</span>
-            </button>
-
-            <a 
-              href="https://www.instagram.com/reel/DMP_aVItzFk/?dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs sm:text-sm px-4 py-3 rounded-full transition-colors"
-            >
-              <svg class="w-4 h-4 text-rose-400 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-              <span>Instagram ↗</span>
-            </a>
-          </div>
-
-          <!-- Minimized Mobile Reel Teaser Card (Takes only 80px instead of 500px!) -->
-          <div class="lg:hidden w-full max-w-sm mx-auto pt-2">
-            <div class="open-reel-modal-btn cursor-pointer bg-slate-900/90 hover:bg-slate-800 border border-amber-500/30 rounded-2xl p-2.5 flex items-center gap-3.5 transition-all shadow-md">
-              <div class="w-16 h-16 rounded-xl overflow-hidden relative flex-shrink-0 bg-black">
-                <img src="assets/branding/reel_cover.jpg" alt="Reel Teaser" class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
-                  <div class="w-7 h-7 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center shadow">
-                    <svg class="w-3.5 h-3.5 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-                  </div>
-                </div>
-              </div>
-              <div class="flex-1 min-w-0 text-left">
-                <div class="flex items-center gap-1.5 mb-0.5">
-                  <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
-                  <span class="text-[10px] font-bold text-rose-400">@thetejastudios</span>
-                </div>
-                <h4 class="font-serif font-bold text-xs text-white truncate">1-Min Studio Video Tour</h4>
-                <p class="text-[10px] text-amber-300 font-semibold mt-0.5">Tap to play full video ▷</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Desktop Compact Phone Showcase (Hidden on Mobile) -->
-        <div class="hidden lg:flex lg:col-span-5 justify-center">
-          <div class="open-reel-modal-btn group relative cursor-pointer w-56 aspect-[9/16] rounded-[2rem] p-2.5 bg-gradient-to-b from-slate-700 via-slate-800 to-slate-900 shadow-2xl border-4 border-slate-700/80 transform hover:-translate-y-1.5 transition-all duration-300">
-            <div class="absolute top-4 left-1/2 -translate-x-1/2 w-20 h-3.5 bg-slate-900 rounded-full z-20"></div>
-
-            <div class="relative w-full h-full rounded-[1.6rem] overflow-hidden bg-black">
-              <img 
-                src="assets/branding/reel_cover.jpg" 
-                alt="Teja Studios Star Reel Video" 
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-black/30"></div>
-
-              <div class="absolute inset-0 flex items-center justify-center">
-                <div class="w-14 h-14 rounded-full bg-amber-500/90 text-slate-950 flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
-                  <svg class="w-7 h-7 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-                </div>
-              </div>
-
-              <div class="absolute bottom-4 left-3 right-3 text-white z-10">
-                <div class="flex items-center gap-1.5 mb-1">
-                  <img src="assets/branding/logo_circle.png" alt="Logo" class="w-5 h-5 object-contain rounded-full bg-amber-100" />
-                  <span class="text-[11px] font-bold">@thetejastudios</span>
-                </div>
-                <p class="text-[11px] text-slate-200 font-medium line-clamp-1">
-                  22 AC sets &amp; 1-acre garden tour
-                </p>
-                <span class="text-[10px] text-amber-300 font-bold block mt-0.5">Tap to play ▷</span>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
 
   <!-- Interactive Portfolio & 65+ Themes Showcase (Paginated for Mobile Elegance) -->
   <section id="gallery" class="py-8 sm:py-12 bg-[#faf9f6]">
@@ -1178,7 +1067,7 @@
           <h4 class="font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Links</h4>
           <ul class="space-y-2.5">
             <li><a href="#amenities" class="hover:text-amber-400 transition-colors">22 AC Indoor Sets &amp; Amenities</a></li>
-            <li><a href="#video-tour" class="hover:text-amber-400 transition-colors">Star Reel Video Tour</a></li>
+            <li><a href="https://www.instagram.com/thetejastudios/" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition-colors">Instagram @thetejastudios ↗</a></li>
             <li><a href="#pricing" class="hover:text-amber-400 transition-colors">Hourly Rental Rates (₹2,500/hr)</a></li>
             <li><a href="#gallery" class="hover:text-amber-400 transition-colors">65+ Portfolio Sets</a></li>
             <li><a href="#reviews" class="hover:text-amber-400 transition-colors">Google Reviews (136+)</a></li>
@@ -1251,51 +1140,7 @@
     </div>
   </footer>
 
-  <!-- Star Reel Video Modal Dialog -->
-  <dialog id="reelModal" class="p-0 rounded-3xl bg-slate-950 text-white max-w-sm sm:max-w-md w-[92vw] overflow-hidden shadow-2xl border border-slate-800">
-    <div class="relative flex flex-col">
-      
-      <div class="p-3.5 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-          <img src="assets/branding/logo_circle.png" alt="Logo" class="w-6 h-6 object-contain" />
-          <span class="font-serif text-sm font-bold text-white">Teja Studios Reel Tour</span>
-        </div>
-        <button id="closeReelModal" type="button" aria-label="Close video" class="p-1 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800 transition-colors">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-        </button>
-      </div>
 
-      <div class="relative w-full aspect-[9/16] bg-black flex items-center justify-center overflow-hidden">
-        <iframe 
-          id="reelIframe" 
-          src="" 
-          class="w-full h-full border-0" 
-          allowfullscreen="true" 
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        ></iframe>
-      </div>
-
-      <div class="p-3.5 bg-slate-900 border-t border-slate-800 flex items-center justify-between gap-3">
-        <a 
-          href="https://www.instagram.com/reel/DMP_aVItzFk/?dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          class="text-xs text-rose-400 font-bold hover:underline"
-        >
-          Watch on Instagram App ↗
-        </a>
-        <a 
-          href="https://wa.me/919515109009?text=Hi%20Teja%20Studios,%20I%20just%20watched%20your%20studio%20reel%20and%20want%20to%20inquire%20about%20booking%20a%20slot!" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow transition-colors"
-        >
-          Book on WhatsApp
-        </a>
-      </div>
-
-    </div>
-  </dialog>
 
   <!-- Lightbox Dialog Modal -->
   <dialog id="lightboxModal" class="p-0 rounded-3xl bg-slate-950 text-white max-w-4xl w-[92vw] overflow-hidden shadow-2xl border border-slate-800">
